@@ -1,1 +1,1 @@
-# mandelbuld
+# mandelbulb
