@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        thead > tr 
+        {
+            background-color: darkcyan;
+            color: white;
+        }
+
+        tbody > tr:nth-child(even)
+        {
+            background-color: lightcyan;
+        }
+        
+        tbody > tr:nth-child(odd)
+        {
+            background-color: lightgreen;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <table border="1px" width="400">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>TV</th>
+                <th>45000.55</th>
+            </tr>
+            <tr>
+                <th>Mobile</th>
+                <th>41000.22</th>
+            </tr>
+            <tr>
+                <th>Nike</th>
+                <th>5200.33</th>
+            </tr>
+            <tr>
+                <th>Shirt</th>
+                <th>4100.33</th>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
